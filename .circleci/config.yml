@@ -8,7 +8,7 @@ jobs:
      # build image
      - run: |         
          docker info
-         docker build -t aspnetapp -f docker-circleci-heroku-deploy-test/Dockerfile .
+         docker build -t aspnetapp -f Dockerfile .
 
      # deploy the image
      - run: |         
